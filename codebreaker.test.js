@@ -48,4 +48,18 @@ describe('codebreaker', () => {
         expect(value).toBe('xx--'); //Assert
     });
 
+
+
+})
+
+describe('codebreaker2', () => {
+    
+    test('Longitud', () => {
+        var value = cb.generateRandom(); //Act
+        expect(value.length).toBe(4); //Assert
+    });
+
+
+
+
 })

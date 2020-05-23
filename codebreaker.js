@@ -20,8 +20,8 @@ function codebreaker (a){
 }
 
 function generateRandom(){
-    const random = Math.floor(Math.random()*1000);
-    const randomS = Number.toString(random);
+    const random = Math.floor(Math.random()*10000);
+    const randomS = random.toString();
     return randomS; 
 }
 
@@ -30,3 +30,4 @@ function generateNumber(){
 }
 
 module.exports.codebreaker = codebreaker;
+module.exports.generateRandom = generateRandom;
